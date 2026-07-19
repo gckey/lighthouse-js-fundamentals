@@ -28,3 +28,5 @@ const obfuscate = function(str) {
   return result;
 };
 
+const password = process.argv[2];
+console.log(obfuscate(password));
